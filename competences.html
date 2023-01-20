@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<title>Compétences</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body id="pagecompetences">
+
+	
+
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">Portfolio</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+				aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarsExample04">
+				<ul class="navbar-nav me-auto mb-2 mb-md-0">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">CV Numérique</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="competences.html">Compétences</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="projetprofessionnel.html">Projet Professionnel</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="interets.html">Expérience Post-Bac</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="liensutiles.html">Liens utiles</a>
+					</li>
+
+				</ul>
+
+			</div>
+		</div>
+	</nav>
+
+	<header class="container p-5 my-5">
+		<div class="row">
+		<h1 class="text-center">Compétences et Projets</h1>
+		</div>
+	</header>
+
+
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin-top: 20px;margin-bottom: 20px;">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+				aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+				aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+				aria-label="Slide 3"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+				aria-label="Slide 4"></button>
+
+
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<div class="container">
+					<div class="carousel-caption">
+						<h3>Réseau</h3>
+						<ul>
+							<li>Effectuer le plan d'adressage d'une entreprise</li>
+							<li>Dresser le schéma de dépannage</li>
+							<li>Administrer les machines en réseaux</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="container">
+					<div class="carousel-caption">
+						<h3>Sécurité informatique</h3>
+						<ul>
+							<li>Sensibiliser un publique au bonnes pratiques</li>
+							<li>Mettre en oeuvre une sécurisation du réseau de l'entreprise</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="container">
+					<div class="carousel-caption">
+						<h3>Programmation</h3>
+						<ul>
+							<li>Créer un algorithme répondant aux besoins du client</li>
+							<li>Codage de ce dernier en Python</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="container">
+					<div class="carousel-caption">
+						<h3>Anglais / Espagnol</h3>
+						<ul>
+							<li>Communiquer dans les deux langues</li>
+							<li>Traduire un manuel d'utilisation de machine vers le français</li>
+						</ul>
+
+						
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+			data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+			data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+
+
+
+
+
+	</div>
+
+	<section class="container">
+		<h2>Projet Traitement de données</h2>
+		<p>
+			Lors de ce premier semestre dans le BUT Réseaux et Télécoms, nous avons réalisé un premier projet qui
+			alliait Programmation, Système et Réseaux.
+		</p>
+		<p>Le but de ce projet était de collecter des données sur une machine, de les extraire vers un fichier CSV et
+			enfin de les récupérer avec Python pour les exploiter. </p>
+		<p>Pour ma part, je devais récupérer la taille que chaque utilisateur occupait et je devais faire varier cette
+			taille afin des créer des graphiques qui représenteraient la taille occupée par chaque utilisateur en
+			fonction du temps. </p>
+		<p>Nous avons pu réaliser ce projet grâce aux connaissances acquises lors des cours de programmation, de réseaux
+			et de systèmes auxquels nous avons assisté depuis le début de l’année.</p>
+		<p>Je vais maintenant vous expliquer comment j’ai réalisé ce projet. </p>
+		<p> Dans un premier temps, j’ai dû installer le module « quota » sur ma machine virtuelle. Ce module permet de
+			gérer les quotas d’utilisation de chaque utilisateur présent sur le système.
+			J’ai ensuite créé des utilisateurs afin d’obtenir davantage de données. Puis j’ai créé un script bash qui
+			permettait de récolter les informations de chaque utilisateur ainsi que leurs noms et le temps auquel cette
+			capture a été faite. Toutes ces informations sont ensuite envoyées vers un fichier CSV.
+			Il fallait ensuite faire varier ces données, j’ai donc écrit un nouveau script bash qui permettait de créer
+			un fichier d’une taille choisie sur le disque de l’utilisateur choisie.
+			Avec le module « crontab » on avait la possibilité de faire répéter les scripts tous les x temps. Cela m’a
+			permis de générer un grand nombre de données sans avoir à le faire manuellement et ce pour les différents
+			utilisateurs.
+		</p>
+		<p>Après avoir récoltés suffisamment de données, j’ai commencé à écrire mon programme python.</p>
+		<p> Dans ce dernier, j’ai importé un module permettant de faire des graphiques et de nombreuses autres choses
+			liées aux mathématiques : « matplotlib ».
+			J’ai ensuite affecté chaque donnée de mon fichier dans un dictionnaires afin d’affecter a chaque
+			utilisateurs toutes les données qui lui correspond et enfin j’ai pu réaliser les graphiques. J’ai en fait un
+			en camembert afin de voir quel espace chaque utilisateur occupait par rapport aux autres. Pour finir, j’ai
+			fait un graphique qui retraçait l’évolution de l’espace occupé par chaque utilisateur en fonction du temps.
+		</p>
+	</section>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+	
+</body>
+
+</html>

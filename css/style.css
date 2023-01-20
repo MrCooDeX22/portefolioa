@@ -1,0 +1,108 @@
+
+
+
+
+
+ .row {
+    margin-bottom: 15px;
+  }
+
+ h1, h2, h4, h5, h6 {
+    margin: 10px 0;
+  }
+ 
+h2 {
+	padding-bottom: 5px;
+	border-bottom: 1px solid white;
+}
+
+#pageutiles h4,#pageutiles p,#pageutiles a.card-link {
+	text-align: center;
+	clear: both;
+}
+
+
+
+#pageutiles img{
+	display: block;
+	margin: auto;
+	width: 10%;
+	height: 10%;
+	
+}
+#pageindex section,#pageindex header,#pageindex  article{ 
+	border: 1px solid white; 
+	height:auto;
+	border-radius: 10px;
+	
+	}
+	
+
+
+#middle a{
+	text-decoration:none;
+	color:white;
+	
+}
+
+h1{
+	color: white;
+}
+
+
+
+/* Carousel  */
+ .carousel {
+	margin-bottom: 4rem;
+	background-color: rgba(0, 0, 0, 0.7);
+	
+}
+.carousel p,.carousel h3, .carousel ul li{
+	color:white;
+	text-align: center;
+}
+.carousel-item {
+	height: 32rem;
+  }
+
+body{
+	background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+
+}
+
+header,.card, section, .accordion-button,.accordion-body	 {
+	
+	color: #ffff;
+    font: Georgia;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#pagecompetences p{
+	text-align: justify;
+}
+#pagecompetences h2{
+	text-align: center;
+}
+
+#pagecompetences .carousel-caption{
+	position: absolute;
+	right: 15%;
+	bottom: 1.25rem;
+	left: 15%;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+	color: #fff;
+	text-align: center;}
+
+#pagepro h2{
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+#pagepro header, #pagecompetences header, #pageinterets header, #pageinterets section{
+	border-radius: 5px;
+}
+
+
+
+
